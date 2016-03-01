@@ -69,7 +69,7 @@ Create basic CRUD routes (see RESTful routing table if needed). Rails can do thi
 ####Setup basic rails app / repo
 
 * Fork and clone this repo
-* create new rails app `rails new ./ -T -d postgresql`
+* create new rails app `rails new ./ -d postgresql`
 * create your database `rake db:create`
 * test `rails s` go to localhost:3000 in browser
 
