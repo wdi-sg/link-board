@@ -33,7 +33,7 @@ For part 1, we're going focus on `Users` and `Posts` only. The goal for is to cr
 | POST | /signup | users#create | create user in database (signup) | 
 | GET | /login | sessions#new | render user log in form |
 | POST | /login | sessions#create | create user session (login) |
-| GET | /logout | sessions#destroy | destroy user session (logout) |
+| DELETE | /logout | sessions#destroy | destroy user session (logout) |
 
 ####Post
 
