@@ -2,9 +2,9 @@
 
 To finish up the Link Board assignment, implement **at least 5 of the following:**
 
-* Add comments (one-to-many)
-* Add voting to comments (one-to-many)
-* Use modals for signup and login
+* Add comments
+* Add voting to comments
+* Use modals for auth
 * Use modals for adding posts or comments
 * Add AJAX Delete to comments
 * Change the color scheme/styling using SASS
