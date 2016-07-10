@@ -115,7 +115,7 @@ User.all
 
 **Testing valdations**
 
-```
+```ruby
 User.create 
 #no parameters should fail validation
 
