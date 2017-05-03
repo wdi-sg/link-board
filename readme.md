@@ -40,11 +40,11 @@ For part 1, we're going focus on `Users` and `Posts` only. The goal for is to cr
 
 Create basic CRUD routes (see RESTful routing table if needed). Rails can do this for you using `resources` in routes.rb.
 
-| Verb | Route | Action | Purpose |
-|------|-------|------------|--------|---|
-| GET | / | posts#index | render list of all posts | 
-| GET | /posts/new | posts#new | render add post form | 
-| POST | /posts | posts#create | create post in database (associated to logged in user) | 
+| Verb | Route      | Action       | Purpose                                                |
+|------|------------|--------------|--------------------------------------------------------|
+| GET  | /          | posts#index  | render list of all posts                               | 
+| GET  | /posts/new | posts#new    | render add post form                                   | 
+| POST | /posts     | posts#create | create post in database (associated to logged in user) | 
 
 **Note:** We're using the root for `posts#index` because (just like hacker news) we want to list all posts on the home page.
 
